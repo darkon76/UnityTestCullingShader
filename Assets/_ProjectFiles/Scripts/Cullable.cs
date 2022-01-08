@@ -22,6 +22,8 @@ public class Cullable : MonoBehaviour
 
     // The material that will be affected by the transition 
     private Material m_mat;
+    
+    [SerializeField]
     // Set to true if we want to fade the object out because it's in the way
     private bool m_occluding;
 
